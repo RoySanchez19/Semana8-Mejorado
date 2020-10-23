@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css" class="rel">
+</head>
+<body>
+    <div class="container show" id="container-login">
+        <form action="" class="form-login" id="form-login">
+            <h1>Login</h1>
+            <input type="email" placeholder="Email" id="login-email">
+            <input type="text" placeholder="Password" id="login-password">
+            <div class="form-login--buttons">
+                <input type="button" id="form-login-btnlogin" value="Login">
+                <input type="button" id="form-login-btncrearcuenta" value="Crear cuenta">
+            </div>
+        </form>
+    </div>
+    <div class="container hide" id="container-registro">
+        <form action="" class="form-registro" id="form-registro">
+            <h1>Registro</h1>
+            <input type="text" id="txt1" placeholder="Nombre">
+            <input type="text" id="txt2" placeholder="Celular">
+            <input type="email" id="txt3" placeholder="Email">
+            <input type="text" id="txt4" placeholder="Password">
+            <input type="text" id="txt5" placeholder="Confirmar Password">
+            <input type="button" value="Registro" id="form-registro-btnregistro">
+            <p style="text-align: center;" class="hide" id="form-registro-parrafo">Datos Registrados correctamente</p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
